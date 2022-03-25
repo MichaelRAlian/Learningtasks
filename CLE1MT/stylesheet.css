@@ -1,0 +1,221 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+    
+}
+#wrapper{
+    width: 1850px;
+    min-height: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgba(64, 63, 63, 0.5); 
+    
+}
+#header{
+    width: 96%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#header h1{
+    color: #E7ECEA;
+    font-size: 60px;
+    position: relative;
+    left: 250px;   
+}
+#navigation{
+    width: 92%;
+    height: 40px;
+    float: right;
+    position: relative;
+    left: 110px;
+}
+#navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navigation a{
+    min-width: 40px;
+    padding: 4px;
+    margin: 2px;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;   
+}
+#navigation a:link, #navigation a:visited{
+    border: 1px solid #E7ECEA;
+    color: #E7ECEA;   
+}
+#navigation a:hover{
+    border: 1px solid #98A1A1;
+    color: #98A1A1; 
+    
+}
+#content{
+    width: 98%;
+    min-height: 900px;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+    position: relative;
+    top: 60px;
+}
+#content #content-wrapper{
+    width: 98%;
+    min-height: 900px;
+    padding: 5px;
+    margin: 10px;
+    display: block; 
+}
+#content #content-wrapper #about-text{
+    width: 60%;
+    min-height: 600px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+}
+#content #content-wrapper #about-text p{
+    font-size: 25px;
+    color: #E7ECEA;
+}
+#content #content-wrapper #about-text h1{
+    font-size: 41px;
+    color: #E7ECEA;
+    left: 20%;
+}
+#content #content-wrapper #about-image{
+    width: 30%;
+    min-height: 900px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block; 
+    
+}
+#content #causes-wrapper{
+    width: 96%;
+    min-height: 800px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;     
+}
+#content #causes-wrapper #causes-text h1{
+    font-size: 41px;
+    color: #E7ECEA;
+}
+#content #causes-wrapper #causes-text li{
+    font-size: 30px;
+    color: #E7ECEA;
+    list-style-type: none;
+    margin: 0px;
+    padding 0px;
+}
+#content #abouts-wrapper{
+    width: 96%;
+    min-height: 800px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;     
+}
+#content #abouts-wrapper #abouts-text h1{
+    font-size: 41px;
+    color: #E7ECEA;
+}
+#content #abouts-wrapper #abouts-text p1{
+    font-size: 30px;
+    color: #E7ECEA;
+    float: left;
+    padding: 10px;
+}
+#content #abouts-wrapper #abouts-text p2{
+    font-size: 30px;
+    color: #E7ECEA;
+    float: left;
+    padding: 10px;
+}
+#content #abouts-wrapper #abouts-text p3{
+    font-size: 30px;
+    color: #E7ECEA;
+    float: left;
+    padding: 10px;
+}
+#content #abouts-wrapper #abouts-text p4{
+    font-size: 30px;
+    color: #E7ECEA;
+    float: left;
+    padding: 10px;
+}
+#content #abouts-wrapper #abouts-text p5{
+    font-size: 30px;
+    color: #E7ECEA;
+    float: left;
+    padding: 10px;
+}
+#content #abouts-wrapper #abouts-text p6{
+    font-size: 30px;
+    color: aliceblue;
+    float: left;
+    padding: 10px;
+}
+#content #images-wrapper #first-image{
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    right: 29%;
+}
+#content #images-wrapper #second-image{
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    right: 29%;
+}
+#content #images-wrapper #third-image{
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    right: 17%;
+}
+#content #images-wrapper #fourth-image{
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    right: 12%;
+}
+#content #images-wrapper #fifth-image{
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    right: 39%;
+}
+#content #images-wrapper #sixth-image{
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    position: relative;
+    right: 29%;
+}
+#footer{
+    width: 96%;
+    min-height: 50px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: block;    
+}
+#footer h3{
+    color: #E7ECEA;
+}
